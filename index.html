@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anindiya Maulana Dimas Saputra — Portfolio</title>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- =====================================================
+       NAVBAR
+       ===================================================== -->
+  <header class="navbar" role="banner">
+    <div class="navbar__inner">
+
+      <!-- Logo -->
+      <a href="#hero" class="navbar__logo">
+        Anindiya Maulana Dimas Saputra<span>.</span>
+      </a>
+
+      <!-- Hamburger toggle (mobile) -->
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Nav links -->
+      <nav class="navbar__nav" id="navMenu" role="navigation">
+        <a href="#about" class="navbar__link">About</a>
+        <a href="#skills" class="navbar__link">Skills</a>
+        <a href="#projects" class="navbar__link">Projects</a>
+        <a href="#contact" class="navbar__link">Contact</a>
+        <a href="https://wa.me/6283867510865?text=saya%20tertarik%20dengan%20jasa%20anda" class="navbar__hire">Hire
+          me</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <!-- =====================================================
+       HERO SECTION
+       ===================================================== -->
+  <section id="hero" class="hero">
+    <div class="hero__inner">
+
+      <h1 class="hero__headline">
+        Crafting digital<br>
+        <span class="accent accent--shift">experiences</span><br>
+        that matter
+      </h1>
+
+      <p class="hero__sub">
+        Informatics student and web enthusiast building functional,
+        responsive, and creative digital solutions.
+      </p>
+
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">View my work</a>
+        <a href="#contact" class="btn btn--outline">Get in touch</a>
+      </div>
+
+      <!-- Social icons (GitHub, LinkedIn, Email) -->
+      <div class="hero__socials" aria-label="Social links">
+
+        <!-- GitHub icon -->
+        <a href="https://github.com/dimsOnly" class="social-icon" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+          </svg>
+        </a>
+
+        <!-- LinkedIn icon -->
+        <a href="https://www.linkedin.com/in/dimsOnly1" class="social-icon" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+            <rect x="2" y="9" width="4" height="12" />
+            <circle cx="4" cy="4" r="2" />
+          </svg>
+        </a>
+
+        <!-- Email icon -->
+        <a href="mailto:dimasaputra8881@gmail.com" class="social-icon" aria-label="Email">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="2" y="4" width="20" height="16" rx="2" />
+            <path d="m2 7 10 7 10-7" />
+          </svg>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       ABOUT SECTION
+       ===================================================== -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="about__grid">
+
+        <!-- Photo column -->
+        <div class="about__photo-wrap">
+          <!--
+            ===================================================
+            FOTO PROFIL
+            ===================================================
+            Ganti src di bawah dengan path foto kamu.
+            Contoh src yang tersedia di folder:
+              Untitled_img/source/bg_removal [Background removed].png
+            ===================================================
+          -->
+          <img src="Untitled_img/source/bg_removal [Background removed].png" alt="Foto profil Dimas Saputra"
+            class="about__photo" />
+        </div>
+
+        <!-- Text column -->
+        <div class="about__content">
+          <p class="about__label">ABOUT ME</p>
+
+          <h2 class="about__title">
+            Turning code and logic into interactive digital experiences
+          </h2>
+
+          <p class="about__desc">
+            Hi, I'm Dimas, an Informatics student at Universitas Bumigora.
+            I have a deep interest in technology and software development,
+            particularly in crafting websites and exploring automation.
+            I regularly build web interfaces using HTML, CSS, and JavaScript,
+            and have experience integrating them with PHP backend systems.
+            <br /><br />
+            Driven by curiosity, I also experiment with Python, having
+            successfully built an AI-assisted voice assistant system inspired
+            by Jarvis. I thrive on problem-solving and love leveraging modern
+            technology to turn ideas into working digital projects.
+          </p>
+
+          <!-- Stats grid -->
+          <div class="about__stats">
+            <div class="stat-card">
+              <div class="stat-card__value">2nd</div>
+              <div class="stat-card__label">Semester Student</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-card__value">20+</div>
+              <div class="stat-card__label">Projects &amp; Experiments</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-card__value">100%</div>
+              <div class="stat-card__label">Eager to Learn</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-card__value">AI+</div>
+              <div class="stat-card__label">Assisted Development</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       SKILLS SECTION
+       ===================================================== -->
+  <section id="skills" class="section section--alt skills">
+    <div class="container">
+
+      <div class="skills__header">
+        <p class="section__label">SKILLS &amp; TOOLS</p>
+        <h2 class="section__title">What I bring to the table</h2>
+      </div>
+
+      <!-- Skill cards -->
+      <div class="skills__cards">
+
+        <!-- Frontend card -->
+        <div class="skill-card">
+          <div class="skill-card__header">
+            <div class="skill-card__dot skill-card__dot--purple"></div>
+            <span class="skill-card__name">Frontend</span>
+          </div>
+
+          <div class="skill-bar">
+            <div class="skill-bar__top">
+              <span class="skill-bar__label">HTML &amp; CSS</span>
+              <span class="skill-bar__pct">75%</span>
+            </div>
+            <div class="skill-bar__track">
+              <div class="skill-bar__fill" style="width: 75%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="skill-bar__top">
+              <span class="skill-bar__label">JavaScript</span>
+              <span class="skill-bar__pct">70%</span>
+            </div>
+            <div class="skill-bar__track">
+              <div class="skill-bar__fill" style="width: 70%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="skill-bar__top">
+              <span class="skill-bar__label">Tailwind CSS</span>
+              <span class="skill-bar__pct">75%</span>
+            </div>
+            <div class="skill-bar__track">
+              <div class="skill-bar__fill" style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend card -->
+        <div class="skill-card">
+          <div class="skill-card__header">
+            <div class="skill-card__dot skill-card__dot--pink"></div>
+            <span class="skill-card__name">Backend</span>
+          </div>
+
+          <div class="skill-bar">
+            <div class="skill-bar__top">
+              <span class="skill-bar__label">PHP</span>
+              <span class="skill-bar__pct">75%</span>
+            </div>
+            <div class="skill-bar__track">
+              <div class="skill-bar__fill skill-bar__fill--pink" style="width: 75%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="skill-bar__top">
+              <span class="skill-bar__label">MySQL</span>
+              <span class="skill-bar__pct">65%</span>
+            </div>
+            <div class="skill-bar__track">
+              <div class="skill-bar__fill skill-bar__fill--pink" style="width: 65%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar">
+            <div class="skill-bar__top">
+              <span class="skill-bar__label">Python (Automation)</span>
+              <span class="skill-bar__pct">60%</span>
+            </div>
+            <div class="skill-bar__track">
+              <div class="skill-bar__fill skill-bar__fill--pink" style="width: 60%"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Tech tag pills -->
+      <div class="skills__tags" aria-label="Technologies">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Tailwind</span>
+        <span class="tag">PHP</span>
+        <span class="tag">MySQL</span>
+        <span class="tag">Python</span>
+        <span class="tag">Git</span>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       PROJECTS SECTION
+       ===================================================== -->
+  <section id="projects" class="section projects">
+    <div class="container">
+
+      <div class="projects__header">
+        <p class="section__label">SELECTED WORK</p>
+        <h2 class="section__title">Projects I'm proud of</h2>
+      </div>
+
+      <div class="projects__list">
+
+        <!-- -----------------------------------------------
+             PROJECT 1 — Jarvis Voice Assistant (Horizontal)
+             ----------------------------------------------- -->
+        <div class="project-card project-card--horizontal">
+
+          <!-- Image side -->
+
+          <img src="Untitled_img/Image (DashFlow Analytics).png" alt="Screenshot Jarvis Voice Assistant"
+            class="project-card__img" />
+
+          <!-- Text side -->
+          <div class="project-card__body">
+            <h3 class="project-card__title">Jarvis Voice Assistant</h3>
+            <p class="project-card__desc">
+              An AI-assisted personal voice assistant system inspired by Jarvis.
+              Built to handle basic automation and voice commands, leveraging
+              Python to bridge logic and user interaction smoothly.
+            </p>
+            <div class="project-card__tags">
+              <span class="project-tag project-tag--purple">Python</span>
+              <span class="project-tag project-tag--purple">AI Integration</span>
+              <span class="project-tag project-tag--purple">Automation</span>
+            </div>
+            <a href="https://github.com/dimsOnly/jarvis" class="project-card__link">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+              </svg>
+              Code
+            </a>
+          </div>
+
+        </div>
+
+
+        <!-- -----------------------------------------------
+             PROJECT 2 — GameStore E-Commerce (Stacked)
+             ----------------------------------------------- -->
+        <div class="project-card">
+
+          <!-- Image banner -->
+          <div class="project-card__img-wrap">
+
+            <img src="Untitled_img/Image (Collabify).png" alt="Screenshot GameStore E-Commerce" />
+            <div class="project-card__overlay project-card__overlay--pink"></div>
+          </div>
+
+          <!-- Text body -->
+          <div class="project-card__body">
+            <h3 class="project-card__title">GameStore E-Commerce Platform</h3>
+            <p class="project-card__desc">
+              A web-based e-commerce platform dedicated to gaming products.
+              Features responsive product management interfaces, clean layouts,
+              and functional database integrations.
+            </p>
+            <div class="project-card__tags">
+              <span class="project-tag project-tag--pink">PHP</span>
+              <span class="project-tag project-tag--pink">MySQL</span>
+              <span class="project-tag project-tag--pink">HTML/CSS</span>
+              <span class="project-tag project-tag--pink">Tailwind</span>
+            </div>
+            <a href="https://github.com/dimsOnly/Game_store" class="project-card__link">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+              </svg>
+              Code
+            </a>
+          </div>
+
+        </div>
+
+
+        <!-- -----------------------------------------------
+             PROJECT 3 — Class Social Management App (Stacked)
+             ----------------------------------------------- -->
+        <div class="project-card">
+
+          <!-- Image banner -->
+          <div class="project-card__img-wrap">
+
+            <img src="Untitled_img/Image (ShopLens AI).png" alt="Screenshot Class Social Management App" />
+            <div class="project-card__overlay project-card__overlay--green"></div>
+          </div>
+
+          <!-- Text body -->
+          <div class="project-card__body">
+            <h3 class="project-card__title">Class Social Management App</h3>
+            <p class="project-card__desc">
+              A custom social-management web application designed for university
+              student coordination. Includes student identification (NIM)
+              verification features and integrated real-time chat capabilities
+              to streamline group interactions.
+            </p>
+            <div class="project-card__tags">
+              <span class="project-tag project-tag--green">PHP</span>
+              <span class="project-tag project-tag--green">MySQL</span>
+              <span class="project-tag project-tag--green">JavaScript</span>
+              <span class="project-tag project-tag--green">Tailwind</span>
+            </div>
+            <a href="https://github.com/dimsOnly/web_kelas" class="project-card__link">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+              </svg>
+              Code
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       CONTACT SECTION
+       ===================================================== -->
+  <section id="contact" class="section section--alt contact">
+    <div class="container">
+
+      <div class="contact__header">
+        <p class="section__label">GET IN TOUCH</p>
+        <h2 class="section__title">Let's build something great</h2>
+      </div>
+      <p class="contact__subtext">
+        Have a project in mind or just want to say hello?
+        My inbox is always open.
+      </p>
+
+      <div class="contact__grid">
+
+        <!-- Left — contact info -->
+        <div class="contact__info">
+
+          <div class="contact__item">
+            <div class="contact__icon">
+              <!-- Email icon -->
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <path d="m2 7 10 7 10-7" />
+              </svg>
+            </div>
+            <div>
+              <div class="contact__item-label">Email</div>
+              <div class="contact__item-value">dimasaputra8881@gmail.com</div>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <div class="contact__icon">
+              <!-- Location icon -->
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <div>
+              <div class="contact__item-label">Location</div>
+              <div class="contact__item-value">Mataram, Indonesia</div>
+            </div>
+          </div>
+
+          <div class="contact__response">
+            <div class="contact__response-title">Response time</div>
+            <p class="contact__response-text">
+              I typically respond within 24 hours. Feel free to reach out
+              for collaborations or just to say hello!
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Right — contact form -->
+        <div class="contact__form">
+
+          <div class="form-group">
+            <label for="contactName" class="form-label">Name</label>
+            <input type="text" id="contactName" class="form-input" placeholder="Your name" autocomplete="name" />
+          </div>
+
+          <div class="form-group">
+            <label for="contactEmail" class="form-label">Email</label>
+            <input type="email" id="contactEmail" class="form-input" placeholder="your@email.com"
+              autocomplete="email" />
+          </div>
+
+          <div class="form-group">
+            <label for="contactMessage" class="form-label">Message</label>
+            <textarea id="contactMessage" class="form-textarea" placeholder="Tell me about your project..."></textarea>
+          </div>
+
+          <button type="button" class="btn--submit">
+            Send message
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <line x1="22" y1="2" x2="11" y2="13" />
+              <polygon points="22 2 15 22 11 13 2 9 22 2" />
+            </svg>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================================================
+       FOOTER
+       ===================================================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+
+        <span class="footer__logo">Dimas<span>.</span></span>
+
+        <p class="footer__copy">
+          &copy; 2026 Anindiya Maulana Dimas Saputra. Built with care.
+        </p>
+
+        <div class="footer__socials" aria-label="Social links">
+          <!-- GitHub -->
+          <a href="https://github.com/dimsOnly" class="footer__social" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+            </svg>
+          </a>
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/dimsOnly1" class="footer__social" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+          </a>
+          <!-- Email -->
+          <a href="mailto:dimasaputra8881@gmail.com" class="footer__social" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m2 7 10 7 10-7" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- =====================================================
+       JAVASCRIPT — Hamburger menu toggle
+       ===================================================== -->
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const menu = document.getElementById('navMenu');
+
+    toggle.addEventListener('click', () => {
+      const isOpen = menu.classList.toggle('is-open');
+      toggle.classList.toggle('is-open', isOpen);
+      toggle.setAttribute('aria-expanded', isOpen);
+    });
+
+    // Close menu when a nav link is clicked (mobile)
+    menu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        menu.classList.remove('is-open');
+        toggle.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
+
+</body>
+
+</html>
